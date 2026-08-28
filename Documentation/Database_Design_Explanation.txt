@@ -1,0 +1,9 @@
+# Database Design Explanation
+
+## Tables and Intent
+1. **artists**: Lookup table standardizing music creator identities.
+2. **genres**: Lookup table enforcing specific style terminology to prevent search fragmentation from typos.
+3. **playlists**: Structural tracking table for customized groupings.
+4. **albums**: Mid-level collection table organizing tracks by release year.
+5. **songs**: Core entity capturing performance metadata like BPM, content flags, and listening loops.
+6. **playlist_tracks**: Many-to-many bridge resolving flat file data duplication flaws.
