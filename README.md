@@ -7,9 +7,10 @@ To resolve this, we designed a many-to-many bridge table (playlist_tracks) linki
 The main challenge was establishing clean table creation hierarchies so that external lookup values like artists and genres compile before downstream child entities. This structure ensures strict foreign key enforcement and prevents missing metadata fields across our entire collection.
 
 
--------------------------------------
+----------------------------
 ## 👥 Authors & Contributors
+----------------------------
 This project was developed as a collaborated effort by 
 *   **Kazan Waugh** ([GitHub Profile Link](https://github.com/kazanwaugh)) — Co-Creator & Lead Database Developer
-*   **Sarah Weiss** ([GitHub Profile Link](https://github.comSarahW16)) — Co-Creator & Lead Database Developer
+*   **Sarah Weiss** ([GitHub Profile Link](https://github.com/https://github.com/sarahweiss16)) — Co-Creator & Lead Database Developer
 Both authors contributed equally to the design, implementation, and optimization of this Music Database Project.
